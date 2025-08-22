@@ -34,7 +34,29 @@ python src/predict_xgb.py
 
 ---
 
-##Results
-![ROC](docs/roc_curve.png)
-![PR](docs/pr_curve.png)
-![Calibration](docs/calibration_curve.png)
+## 📊 Results
+
+Sample outputs after training and evaluation:
+
+- **ROC Curve**  
+  ![ROC](docs/roc_curve.png)
+
+- **PR Curve**  
+  ![PR](docs/pr_curve.png)
+
+- **Calibration Curve**  
+  ![Calibration](docs/calibration_curve.png)
+
+- **Confusion Matrix**  
+  ![Confusion Matrix](docs/confusion_matrix_0.25.png)
+
+- **Feature Importance**  
+  ![Feature Importance](docs/feature_importance.png)
+
+- **Lift Curve**  
+  ![Lift Curve](docs/lift_curve.png)
+
+- **Gain Curve**  
+  ![Gain Curve](docs/gains_curve.png)
+
+
