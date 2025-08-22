@@ -31,3 +31,10 @@ make viz_kaggle
 
 # 6. Run predictions on the first 5 rows
 python src/predict_xgb.py
+
+---
+
+##Results
+![ROC](docs/roc_curve.png)
+![PR](docs/pr_curve.png)
+![Calibration](docs/calibration_curve.png)
