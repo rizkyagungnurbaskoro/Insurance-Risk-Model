@@ -32,27 +32,4 @@ make viz_kaggle
 # 6. Run predictions on the first 5 rows
 python src/predict_xgb.py
 
-## 📊 Results
 
-Sample outputs after training and evaluation:
-
-- **ROC Curve**  
-  ![ROC Curve](/docs/roc_curve.png)
-
-- **PR Curve**  
-  ![PR Curve](/docs/pr_curve.png)
-
-- **Calibration Curve**  
-  ![Calibration Curve](/docs/calibration_curve.png)
-
-- **Confusion Matrix (@ 0.25 threshold)**  
-  ![Confusion Matrix](/docs/confusion_matrix_0.25.png)
-
-- **Feature Importance (gain)**  
-  ![Feature Importance](/docs/feature_importance.png)
-
-- **Lift Curve**  
-  ![Lift Curve](/docs/lift_curve.png)
-
-- **Gain Curve**  
-  ![Gain Curve](/docs/gains_curve.png)
